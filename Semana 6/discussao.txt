@@ -1,0 +1,13 @@
+Métricas obtidas:
+Wavelet PSNR Entropia
+Haar 1  31.46    7.76
+Db10 1  32.30    7.79
+Haar 2  27.76    7.93
+Db10 2  27.86    7.95
+A wavelet Daubechies 10 (Db10) demonstra uma qualidade de reconstrução levemente
+superior ao primeiro nível em comparação com a Haar, indicado pelos valores mais
+altos de PSNR, possivelmente devido a suas propriedades de filtragem avançadas. 
+Aumentos na entropia de um nível de decomposição para o outro podem refletir a 
+introdução de artefatos, complicando a interpretação dessa métrica. Apesar da 
+vantagem inicial da Db10, ambas as wavelets mostram redução na qualidade ao 
+avançar para o segundo nível de decomposição.
